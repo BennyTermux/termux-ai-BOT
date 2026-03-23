@@ -1,0 +1,30 @@
+# ============================================================
+# TERMUX AI CODING ASSISTANT - Python Dependencies
+# ============================================================
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- Telegram Bot ---
+python-telegram-bot==20.7
+httpx==0.25.2
+
+# --- AI Providers ---
+openai==1.12.0
+anthropic==0.18.1
+google-generativeai==0.4.1
+
+# --- HTTP & Async ---
+aiohttp==3.9.3
+aiofiles==23.2.1
+requests==2.31.0
+
+# --- Environment & Config ---
+python-dotenv==1.0.1
+
+# --- GitHub Integration ---
+PyGithub==2.1.1
+
+# --- Utilities ---
+pathlib2==2.3.7.post1
+rich==13.7.0           # Pretty terminal output / logging
+tenacity==8.2.3        # Retry logic for API calls
